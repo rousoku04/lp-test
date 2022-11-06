@@ -1,0 +1,414 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+header{
+    height: 100px;
+    display: flex;
+}
+
+.indie_flower{
+    font-family: "Indie Flower";
+    color: rgb(220, 11, 109);
+}
+
+.subtitle{
+    font-size: 30px;
+    color: gray;
+}
+
+.header-icon{
+    margin: 10px;
+}
+.header-icon_img{
+    height: 40px;
+}
+
+.header-tag_list{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+
+.header-tag_list-link{
+    font-size: 20px;
+    margin: 20px 20px 20px 10px;
+    color: gainsboro;
+}
+
+.firstview{
+    position: relative;
+}
+
+.firstview-picture{
+    text-align: right;
+}
+
+.firstview-content{
+    position: absolute;
+    top: 80px;
+    left: 20%;
+    color: rgb(220, 11, 109);
+}
+
+.firstview-content_title{
+    font-family: "Indie Flower";
+    font-size: 60px;
+}
+
+.firstview-content_subtitle{
+    margin: 30px 0px 0px 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.firstview-content_secondtitle{
+    color: gray;
+}
+
+.font-color_green{
+    color: rgb(28, 217, 221);
+}
+
+.news{
+    position: relative;
+    height: 600px;
+}
+
+.news-title{
+    position: absolute;
+    top: 30px;
+    left: 20%;
+}
+
+.news-table{
+    position: relative;
+    top: 150px;
+    left: 20%;
+    width: 50%;
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+    padding: 10px 0px 30px 0px;
+    
+}
+
+.news-table_row{
+    list-style: none;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+}
+
+.news-table_row-date{
+    padding: 5px 20px;
+    color: gray;
+}
+
+.news-table_row-icon{
+    padding: 5px 20px;
+    color: white;
+    background-color: rgb(220, 11, 109);
+    border-radius: 20px;
+}
+
+.news-table_row-content{
+    padding: 5px 20px;
+    color: gray;
+}
+
+.about{
+    position: relative;
+    background-color: gainsboro;
+}
+
+.about-title{
+    text-align: center;
+    padding: 50px;
+}
+
+.about-content{
+    display: flex;
+}
+
+.about-content_sentence{
+    width: 30%;
+    font-size: 18px;
+    margin: 30px 10% 30px 10%;
+    color: gray;
+}
+
+.about-content_picture{
+    width: 30%;
+    margin: 30px 10% 30px 10%;
+}
+
+.service{
+    position: relative;
+    height: 700px;
+}
+
+.service-title{
+    position: absolute;
+    top: 40px;
+    left: 15%;
+}
+
+.service-content_left{
+    width: 30%;
+    height: 400px;
+    background-color: rgb(220, 11, 109);
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 20%;
+}
+
+.service-content_right-top{
+    width: 30%;
+    height: 200px;
+    background-color: rgb(240, 100, 165);
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    display: flex;
+}
+
+.service-content_right-bottom{
+    width: 30%;
+    height: 200px;
+    background-color: rgb(243, 206, 223);
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    display: flex;
+}
+
+.service-content_left-picture{
+    height: 40%;
+    width: 50%;
+    margin-top: 5%;
+}
+
+.service-content_inner-title{
+    color: white;
+    text-align: center;
+}
+
+.service-content_inner-sentence{
+    color: white;
+    text-align: left;
+    margin: 10px 10%;
+    font-size: 15px;
+}
+
+.service-content_right-picture{
+    height: 70%;
+    width: 40%;
+    margin: 5% 2%;
+}
+
+.service-content_right-sentence{
+    color: white;
+    margin-top: 40px;
+}
+
+.service-content_right-sentence_text{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.blog{
+    position: relative;
+    height: 700px;
+    background-color: gainsboro;
+}
+
+.blog-title{
+    position: absolute;
+    top: 40px;
+    left: 15%;
+}
+
+.blog-content{
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 15%;
+}
+
+.blog-content_button{
+    height: 400px;
+    width: 25%;
+    background-color: white;
+    position: relative;
+    border-radius: 20px;
+    margin: 0px 20px;
+}
+
+.blog-content_button-span{
+    background-color: rgb(220, 11, 109);
+    color: white;
+    padding: 10px 15px;
+    position: absolute;
+    border-radius: 20px 0px 0px 0px;
+}
+
+.blog-content_button-img{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.blog-content_button-title{
+    margin:  10px 10%;
+}
+
+.blog-content_button-ul{
+    display: flex;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.blog-content_button-li_left{
+    margin: 0px 5% 0px 10%;
+}
+
+.blog-content_button-li_right{
+    margin: 0px 10% 0px 10%;
+}
+
+.blog-button{
+    background-color: white;
+    color:  rgb(220, 11, 109);
+    border: 1px solid rgb(220, 11, 109);
+    border-radius: 30px;
+    padding: 15px;
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.company{
+    position: relative;
+    height: 700px;
+}
+
+.company-title{
+    position: absolute;
+    top: 40px;
+    left: 15%;
+}
+
+.company-table{
+    text-align: left;
+    width: 60%;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.company-table_th{
+    background-color: gainsboro;
+    padding: 15px;
+    width: 15%;
+    border: 1px solid gainsboro;
+}
+
+.company-table_td{
+    padding: 15px;
+    width: 60%;
+    border: 1px solid gainsboro;
+}
+
+.recruit-set{
+    display: flex;
+    width: 100%;
+}
+.recruit-set_info{
+    color: white;
+    width: 50%;
+    position: relative;
+}
+.recruit-set_info-picture{
+    width: 100%;
+}
+
+.recruit-set_info-title{
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+}
+
+.recruit-set_interview{
+    color: white;
+    width: 50%;
+    position: relative;
+}
+.recruit-set_interview-picture{
+    width: 100%;
+}
+
+.recruit-set_interview-title{
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+}
+
+.contact{
+    height: 260px;
+    width: 100%;
+    position: relative;
+}
+
+.contact-title{
+    text-align: center;
+    margin: 50px 0px 10px 0px;
+    color: gray;
+}
+
+.contact-line{
+    margin: 0 auto;
+    width: 2px;
+    height: 50px;
+    background-color: rgb(220, 11, 109);
+}
+
+.contact-button{
+    color: white;
+    padding: 20px 80px;
+    border-radius: 50px;
+    margin: 0 auto;
+    background: linear-gradient(to right,rgb(220, 11, 109),rgb(130, 2, 62));
+    box-shadow: 0 4px 0 rgb(80, 1, 38);
+    position: absolute;
+    left: 50%;
+    top: 120px;
+    transform: translateX(-50%);
+}
+footer{
+    background-color: gainsboro;
+    height: 50px;
+}
+
+.footer-p{
+    text-align: center;
+    color: gray;
+    padding: 12px;
+    font-size: 15px;
+}
